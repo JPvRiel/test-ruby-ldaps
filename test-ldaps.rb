@@ -1,4 +1,3 @@
-$LOAD_PATH << './ruby-net-ldap-fix1/lib'
 require 'net/ldap'
 require 'timeout'
 require 'optparse'
