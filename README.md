@@ -6,7 +6,7 @@ A future ideal would be to re-factor and merge this with the [test suite](https:
 
 Example use:
 ```
-ruby test-ldap.rb -s ldap1.local.net,ldap2.local.net -b DC=local,DC=net -u 'LOCAL\\Administrator' -c ca_bundle.pem
+ruby test-ldap.rb -s ldap1.local.net,ldap2.local.net -b DC=local,DC=net -u 'LOCAL\Administrator' -c ca_bundle.pem
 ```
 
 Use `ruby test-ldap.rb -h` for help
